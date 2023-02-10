@@ -6,8 +6,6 @@ const client = new Client({
   ]
 });
 
-const prefix = '!';
-
 //on ready should send B0t Creati0n's Helper
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
